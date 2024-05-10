@@ -3,7 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
+./src/main/java/br/uefs/ecomp/api/util
 ### STS ###
 .apt_generated
 .classpath
