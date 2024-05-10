@@ -1,5 +1,11 @@
-# Gerenciador de estoque - Mercadinho do seu Zé
-
+# Gerenciador de estoque - Mercadinho do seu Zé 👋🥸
+<div  display="flex" , align="center"> 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,java,spring,postgres,docker,kubernetes" />
+  </a>
+</p>
+</div>
 
 ## Quick Start
 Para aplicar os manifestos é preciso que:
