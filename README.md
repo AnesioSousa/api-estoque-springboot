@@ -58,6 +58,10 @@ Para aplicar os manifestos é preciso que:
    <img width="700" alt="image" src="https://github.com/AnesioSousa/api-estoque-springboot/assets/39014361/efea80c4-0830-4c47-88a2-2c167c87ae58">
 2. Agora basta acessar link
    `http://localhost/<porta-do-web-app-gerada>`
+   <br/>
+   <br/>
+   <br/>
+   <br/>
 7. Apagar tudo no cluster (executando no minikube)
    ```
    minikube delete
