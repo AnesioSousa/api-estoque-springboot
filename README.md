@@ -66,4 +66,6 @@ Para aplicar os manifestos é preciso que:
    ```
    minikube delete
    ```
+# Contribuindo ao projeto
+Sentiu vontade de dar uma forcinha? Você pode relizar um pull request. Vai deixar um dev mais feliz! Também pode relatar algum problema na aba "issues". Até mais👋.
 
