@@ -33,21 +33,33 @@ Para aplicar os manifestos é preciso que:
    kubectl apply -f specs/postgres.yaml
    ```
 
-3. Quando o deployment do postgres estiver no estado "Ready", aplique o manifesto de criação do App:
+3. Quando o deployment do postgres estiver no estado "Ready" como na segunda imagem abaixo, aplique o manifesto de criação do App:
+   <div style="display: flex; align=center">
+    <img width="700" alt="image" src="https://github.com/AnesioSousa/api-estoque-springboot/assets/39014361/0539baaa-86cc-4d51-a53d-93be4a2add3b">
+    <br/>
+    <img width="700" alt="image" src="https://github.com/AnesioSousa/api-estoque-springboot/assets/39014361/de45e123-b0a1-4576-b6df-c3812c688cc9">
+     
+   </div>
+
    
    ```
    kubectl apply -f specs/webapp.yaml
    ```
-4. Pronto! você já tem um App configurado e funcionando! Digite:
+5. Pronto! você já tem um App configurado e funcionando! Digite para visualizar tudo o que foi construido:
    ```
    kubectl get all
    ```
-5. Executando no minikube:
+
+# Uso
+1. Executando no minikube:
    ```
    minikube service webapp-service
    ```
-
-6. Apagar tudo no cluster (executando no minikube)
+   <img width="700" alt="image" src="https://github.com/AnesioSousa/api-estoque-springboot/assets/39014361/efea80c4-0830-4c47-88a2-2c167c87ae58">
+2. Agora basta acessar link
+   `http://localhost/<porta-do-web-app-gerada>`
+7. Apagar tudo no cluster (executando no minikube)
    ```
    minikube delete
    ```
+
