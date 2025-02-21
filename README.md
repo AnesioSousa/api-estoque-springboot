@@ -2,10 +2,13 @@
 <div  display="flex" , align="center"> 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,java,spring,postgres,docker,kubernetes" />
+
   </a>
 </p>
 </div>
+
+## Arquitetura
+<img width="530px" height="400" src="https://github.com/AnesioSousa/api-estoque-springboot/blob/main/arch.png" />
 
 ## Quick Start
 Para aplicar os manifestos é preciso que:
